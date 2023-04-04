@@ -19,4 +19,5 @@ span_val = driver.find_element(By.XPATH, '//span[@class="chart-info-val ng-bindi
 cotacao_valor = span_val.text
 print(f'Valor da cotacao: {cotacao_valor}')
 
+
 input('')
